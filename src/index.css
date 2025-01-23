@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.logo {
+  font-style: inherit;
+  font-size: xx-large;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.main-banner{
+  padding: 100px 0px;
+  text-align: center;
+  background:url(https://png.pngtree.com/thumb_back/fw800/background/20240325/pngtree-moden-black-car-sunset-view-running-on-the-road-image_15693114.jpg) 50% 50% no-repeat;
+  background-size: cover;
+  color: white;
+  position: relative;
+}
+.content-section {
+  padding: 70px 0;
+}
+.main-banner:after{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  background: rgba(0,0,0,.4);
+  z-index: 1;
+}
+.main-banner > *{
+  position: relative;
+  z-index: 2;
+} 
+.card-thumb {
+  position: relative;
+  overflow: hidden;
+  padding-top: 200px;
+}
+.card-thumb .img{     
+    object-fit: cover;
+    transition: all easy;
+    max-width: 100%;   
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%; 
+}
+
+  .car_card {
+    padding: 0;
+    width: 350px;
+    text-align: left;
+  }
+
+.car_card:hover{
+  background-color: whitesmoke;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+.car_card:hover .card-thumb .img {
+  
+    transform: scale(1.2);
+    
+}
+.form { 
+  margin-left: 350px;
+  width: 50%;
+  
+}
+
+hr{
+  padding: 0%;
+  margin: 0%;
+}  
+
+
+
+
+  
+
